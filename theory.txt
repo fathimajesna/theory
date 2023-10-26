@@ -1,0 +1,23 @@
+1.what is Rest API ?
+
+ans: >>An API (application programming interface) is a set of functions and protocols that enables communications between different software applications or systems. The API establishes a collection of commands that users can invoke to retrieve the information that they’re looking for in an organized, programmatic manner.
+
+>>REST (representational state transfer) is a style of software architecture that defines constraints on how different systems communicate. An API that complies with these REST principles is known as a “REST API.” The six principles of REST (five required, and one optional) are:
+
+>>Client-server architecture: REST APIs separate the client (the one requesting information) from the server (the one possessing information). The client does not have to worry about how the server stores and retrieves data.
+Uniform interface: Whether the client is a software application, a browser, a mobile app, or something else entirely, it can access and use the REST API in the same way.
+>>Statelessness: The server does not have to remember the client’s state. All the client’s requests must be “stateless,” so each request must include all necessary information (such as the client’s authentication details).
+>>Cacheability: REST servers can cache data and reuse it for other requests in the future.
+>>Layered system: REST APIs may have multiple intermediary layers between the client and the server. However, the client does not have to know these implementation details.
+>>Code on demand (optional): Clients may download code (e.g. Java applets or JavaScript scripts) to access additional functionality at runtime.
+
+2.what is view and why it is used in django?
+
+ans: >>Django views are Python functions that takes http requests and returns http response, like HTML documents.
+>>A web page that uses Django is full of views with different tasks and missions.
+>>Views are usually put in a file called views.py located on your app's folder.
+>>Django Views are one of the vital participants of MVT Structure of Django. As per Django Documentation, A view function is a Python function that takes a Web request and returns a Web response. This response can be the HTML contents of a Web page, or a redirect, or a 404 error, or an XML document, or an image, anything that a web browser can display. 
+
+>>Django views are part of the user interface — they usually render the HTML/CSS/Javascript in your Template files into what you see in your browser when you render a web page. (Note that if you’ve used other frameworks based on the MVC (Model-View-Controller), do not get confused between Django views and views in the MVC paradigm. Django views roughly correspond to controllers in MVC, and Django templates to views in MVC.)
+
+>>In the Django framework, views are Python functions or classes that receive a web request and return a web response. The response can be a simple HTTP response, an HTML template response, or an HTTP redirect response that redirects a user to another page.
